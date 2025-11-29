@@ -255,7 +255,7 @@ const WORK_LOCATION = {
                     position: "top-10 right-20",
                 },
                 {
-                    id: 4,
+                    id: 3,
                     name: "nike.png",
                     icon: "/images/image.png",
                     kind: "file",
@@ -264,7 +264,7 @@ const WORK_LOCATION = {
                     imageUrl: "/images/project-1.png",
                 },
                 {
-                    id: 5,
+                    id: 4,
                     name: "Design.fig",
                     icon: "/images/plain.png",
                     kind: "file",
@@ -308,7 +308,7 @@ const WORK_LOCATION = {
                     position: "top-20 left-20",
                 },
                 {
-                    id: 4,
+                    id: 3,
                     name: "ai-resume-analyzer.png",
                     icon: "/images/image.png",
                     kind: "file",
@@ -317,7 +317,7 @@ const WORK_LOCATION = {
                     imageUrl: "/images/project-2.png",
                 },
                 {
-                    id: 5,
+                    id: 4,
                     name: "Design.fig",
                     icon: "/images/plain.png",
                     kind: "file",
@@ -361,7 +361,7 @@ const WORK_LOCATION = {
                     position: "top-10 right-20",
                 },
                 {
-                    id: 4,
+                    id: 3,
                     name: "food-delivery-app.png",
                     icon: "/images/image.png",
                     kind: "file",
@@ -370,7 +370,7 @@ const WORK_LOCATION = {
                     imageUrl: "/images/project-3.png",
                 },
                 {
-                    id: 5,
+                    id: 4,
                     name: "Design.fig",
                     icon: "/images/plain.png",
                     kind: "file",
