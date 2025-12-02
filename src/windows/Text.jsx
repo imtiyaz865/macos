@@ -18,13 +18,13 @@ const Text = () => {
         <h2>{displayName}</h2>
       </div>
 
-      <div className="bg-white p-8 h-full overflow-y-auto">
+      <div className="bg-white p-8 h-[80vh] overflow-y-scroll">
         {image && (
           <div className="mb-6">
             <img
               src={image}
               alt={displayName || "Image"}
-              className="max-w-full h-auto rounded-lg"
+              className="max-w-full h-auto object-cover rounded-lg"
             />
           </div>
         )}

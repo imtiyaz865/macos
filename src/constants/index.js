@@ -101,28 +101,28 @@ const blogPosts = [
 
 const techStack = [
     {
-        category: "Frontend",
+        category: "Frontend Dev",
         items: ["React.js", "Next.js", "TypeScript"],
     },
     {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        category: "Graphic Design",
+        items: ["Adobe Illustrator", "Photoshop", "Figma"],
     },
     {
-        category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        category: "Video Editing",
+        items: ["Adobe Premiere Pro", "After Effects", "DaVinci Resolve"],
     },
     {
-        category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        category: "No-Code Tools",
+        items: ["Lovable", "Cursor", "V0"],
     },
     {
-        category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        category: "AI Tools",
+        items: ["ChatGPT", "Gemini", "N8N"],
     },
     {
-        category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        category: "Additional Skills",
+        items: ["Storytelling", "Cinematography", "Content Creation"],
     },
 ];
 
@@ -132,28 +132,21 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/imtiyaz865",
     },
     {
         id: 2,
-        text: "Platform",
-        icon: "/icons/atom.svg",
-        bg: "#4bcb63",
-        link: "https://jsmastery.com/",
-    },
-    {
-        id: 3,
         text: "Twitter/X",
         icon: "/icons/twitter.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://x.com/Imtiyaz865",
     },
     {
-        id: 4,
+        id: 3,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/imtiyaz865/",
     },
 ];
 
@@ -188,19 +181,15 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "/images/IMG_0144.JPG",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/meow.jpg",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
-    },
-    {
-        id: 4,
-        img: "/images/gal4.png",
+        img: "/images/ter.jpg",
     },
 ];
 
@@ -393,29 +382,29 @@ const ABOUT_LOCATION = {
         {
             id: 1,
             name: "me.png",
-            icon: "/images/image.png",
+            icon: "/images/me1.jpg",
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/me1.jpg",
         },
         {
             id: 2,
             name: "casual-me.png",
-            icon: "/images/image.png",
+            icon: "/images/me2.jpeg",
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/me2.jpeg",
         },
         {
             id: 3,
             name: "conference-me.png",
-            icon: "/images/image.png",
+            icon: "/images/IMG_8545.JPG",
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/IMG_8545.JPG",
         },
         {
             id: 4,
@@ -425,12 +414,12 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/me1.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
+                "Hey! I’m Imtiyaz 👋, a Coder, Editor and a Designer who enjoys making ceative designs, interactive websites and cool videos that actually work well.",
+                "I specialize in Frontend Dev, Video Editing, Graphic Design—and I love making things feel smooth, fast, and just a little bit delightful.",
                 "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Outside of  work, you'll find me watching Netflix, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
             ],
         },
     ],
