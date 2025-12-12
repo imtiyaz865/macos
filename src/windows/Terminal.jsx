@@ -14,17 +14,17 @@ const Terminal = () => {
       <div className="techstack">
         <p>
           <span className="font-bold">@imtiyaz % </span>
-          show tech stack
+          These are my skills and tools i work with:
         </p>
 
         <div className="label">
-          <p className="w-32">Category</p>
+          <p className="w-40">Category</p>
           <p>Technologies</p>
         </div>
 
         <ul className="content">
           {techStack.map(({ category, items }) => (
-            <li key={category} className="flex items-center">
+            <li key={category} className="flex items-center gap-4">
               <Check className="check" size={20} />
               <h3>{category}</h3>
               <ul>
@@ -41,7 +41,7 @@ const Terminal = () => {
 
         <div className="footnote">
           <p>
-            <Check size={20} /> 5 of 5 stacks loaded succesfully (100%)
+            <Check size={20} /> 6 of 6 stacks loaded succesfully (100%)
           </p>
 
           <p className="text-black">

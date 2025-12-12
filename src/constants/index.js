@@ -121,7 +121,7 @@ const techStack = [
         items: ["ChatGPT", "Gemini", "N8N"],
     },
     {
-        category: "Additional Skills",
+        category: "Extras",
         items: ["Storytelling", "Cinematography", "Content Creation"],
     },
 ];
@@ -139,7 +139,7 @@ const socials = [
         text: "Twitter/X",
         icon: "/icons/twitter.svg",
         bg: "#ff866b",
-        link: "https://x.com/Imtiyaz865",
+        link: "https://x.com/imtiyaz865",
     },
     {
         id: 3,
@@ -240,7 +240,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://www.nike.com/in/",
                     position: "top-10 right-20",
                 },
                 {
@@ -293,7 +293,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://saasaiimtiyaz.vercel.app/",
                     position: "top-20 left-20",
                 },
                 {
@@ -346,7 +346,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://estate-imtiyaz.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
