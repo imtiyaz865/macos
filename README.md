@@ -1,16 +1,77 @@
-# React + Vite
+# macOS-like UI (React + Vite) 🍎🖥️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small, playful desktop-style UI built with React + Vite that mimics a macOS shell: dock, navbar, window controls and a few simple apps. Perfect as a UI playground, teaching example, or starting point for a lightweight desktop-like web app. (Yes — it looks like an OS, but it won't make your tea. ☕️)
 
-Currently, two official plugins are available:
+## Features ✨
+- Desktop-style layout: Dock, Navbar, resizable windows
+- Reusable components: Clock, Dock, Navbar, Welcome, Home, WindowControls
+- Window behavior via a WindowWrapper HOC
+- Lightweight client-side store for window/location state
+- Simple plain-CSS styling for easy customization
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack 🧰
+- React (JSX)
+- Vite (dev server + bundling)
+- Plain CSS
+- Node.js & npm
 
-## React Compiler
+## Installation ⚙️
+1. Clone the repo:
+   ```powershell
+   git clone <repo-url>
+   cd macos
+   ```
+2. Install dependencies:
+   ```powershell
+   npm install
+   ```
+3. Start the dev server:
+   ```powershell
+   npm run dev
+   ```
+4. Open the URL printed by Vite (usually http://localhost:5173).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Usage 🚀
+- Entry point: `src/main.jsx` — mounts `src/App.jsx`.
+- Edit UI components in `src/components/` and windows in `src/windows/`.
+- Modify state logic in `src/store/`.
+- Hot reload via Vite for fast feedback.
 
-## Expanding the ESLint configuration
+Tip: If something breaks, blame the CSS first. It’s usually true. 😅
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder structure 📁
+- .idea/ — IDE settings
+- public/
+  - files/
+    - icons/
+    - images/
+- src/
+  - App.jsx — main app component
+  - main.jsx — app entry / mount
+  - index.css — global styles
+  - components/
+    - Clock.jsx
+    - Dock.jsx
+    - Home.jsx
+    - Navbar.jsx
+    - Welcome.jsx
+    - WindowControls.jsx
+    - index.js
+  - constants/
+    - index.js
+  - hoc/
+    - WindowWrapper.jsx
+  - store/
+    - location.js
+    - window.js
+  - windows/ — app windows
+- index.html
+- package.json
+- vite.config.js
+- eslint.config.js
+- jsconfig.json
+
+## Contributing & Notes 🛠️
+- Extend components or add new windows under `src/windows/`.
+- Keep styles modular for easier theming.
+- Have fun and make it look more like your favorite OS — or not. Theme it neon-green for hacker vibes. 👾
